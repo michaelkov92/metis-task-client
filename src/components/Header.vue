@@ -1,10 +1,9 @@
 <script setup lang="ts">
-const headerText = 'Word set files viewer'
 </script>
 <template>
     <div>
-        <img src="../assets/METIS-header-logo.png" />
-        <span>{{ headerText }}</span>
+        <h1>METIS TESTING</h1>
+        <FileUploader />
     </div>
 </template>
 <style scoped lang="less">
@@ -19,10 +18,15 @@ div {
         width: auto;
     }
 
+    h1 {
+        margin-left: 15px;
+        color: white;
+        margin-right: auto;
+    }
+
     span {
         color: #ffff;
         margin: auto auto auto 15px;
     }
-
 }
 </style>
